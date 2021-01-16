@@ -25,7 +25,7 @@ const CarouselItem = ({shareItem}) => {
   }
 
   return (
-    <p onClick={handleClick}>{ shareItem.title }</p>
+    <p onClick={handleClick}>{ shareItem.title }{ shareItem.image }</p>
   );
 };
 
